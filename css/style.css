@@ -1,0 +1,304 @@
+* {
+  padding:0;
+  margin: 0;
+}
+@font-face{
+  font-family: Lato;
+  src: url(/lato/Lato-Regular.ttf);
+}
+@font-face{
+  font-family: Oxygen;
+  src: url(/oxygen/Oxygen.otf);
+}
+body{
+  font-family: Lato;
+}
+h1,h2,h3,h4,h5{
+  font-family: Oxygen;
+}
+.showcase-text{
+  font-size: 60px;
+}
+.text-black{
+  color: black;
+}
+.text-shadow{
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.15);
+}
+.border-primary{
+  border: 3px solid #C9B4CF;
+}
+.border-primary-thin{
+  border: 1px solid #C9B4CF;
+}
+
+.transform-105:hover{
+  transform: scale(1.05) !important;
+}
+
+
+
+/* --NAV-- */
+nav img{
+  height: 52px;
+}
+.ml-47{
+  margin-left:47px;
+}
+
+/* .navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+} */
+ 
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+ 
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+/* nav{
+  border-bottom: 3px solid #C9B4CF;
+} */
+/* nav{
+  height: 11vh;
+} */
+
+/* --FOOTER-- */
+.main-footer{
+  background-color: rgba(201,180,207, .5);
+  font-weight: 150;
+}
+.main-footer .right-footer li{
+  margin-bottom: 9px;
+}
+.footerbar{
+  background-color: rgb(201,180,207);
+  font-weight: 50;
+}
+.left-footer{
+ 
+}
+.right-footer{
+  text-align: right;
+}
+@media(max-width: 576px){
+  .right-footer{
+    text-align: center;
+  
+  }
+  .left-footer{
+    text-align: center;
+  }
+  .main-footer li{
+    margin-bottom: 1px !important;
+  }
+  .main-footer ul{
+    margin: 0px !important;
+  }
+}
+
+/* ====================INDEX======================= */
+nav{
+  /* height: 11vh; */
+}
+#indexShowcase{
+  background-image: url(/img/IndexShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 79vh;
+  background-position: 0px -10px;
+}
+
+.showcase-fill{
+  height: 90vh;
+}
+@media(max-width: 576px){
+  #indexShowcase{
+    background-position: -510px !important;
+  }
+}
+
+.get-started-image{
+  max-height: 50vh;
+}
+
+.left-line{
+  border-left: 5px solid white !important;
+}
+.right-line{
+  border-right: 5px solid white !important;
+}
+
+.end-until-md{
+  align-self: flex-end ;
+}
+
+
+@media(max-width: 768px){
+  .end-until-md{
+    align-self: center !important;
+  }
+  .sm-order-1{
+    order: 1 !important;
+  }
+  .sm-order-2{
+    order: 2 !important;
+  }
+  .sm-order-3{
+    order: 3 !important;
+  }
+  
+}
+/* =======ABOUT====== */
+#aboutShowcase{
+  background-image: url(/img/AboutShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 90vh;
+  background-position: 0px -10px;
+}
+@media(max-width: 576px){
+  #aboutShowcase{
+    background-position: -60px !important;
+  }
+}
+/* =======THERAPY====== */
+#therapyShowcase{
+  background-image: url(/img/TherapyShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 81vh;
+  background-position: 0px -10px;
+}
+@media(max-width: 576px){
+  #therapyShowcase{
+    background-position: -220px 0px !important;
+  }
+}
+.fill{
+  background-size: cover;
+  size;
+}
+.w-184{
+  width: 184px;
+}
+
+.side-card{
+  height: 19vh;
+  
+}
+/* ====================SEXUAL ASSAULT======================= */
+#sexualAssaultShowcase{
+  background-image: url(/img/SexualAssaultShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 79vh;
+  background-position: 0px 0px;
+}
+@media(max-width: 576px){
+  #sexualAssaultShowcase{
+    background-position: -400px 0px !important;
+  }
+}
+/* ====================HIGH ACHIEVING WOMEN======================= */
+#highAchievingWomenShowcase{
+  background-image: url(/img/highAchievingWomenShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 83vh;
+  background-position: 0px 1px;
+}
+@media(max-width: 576px){
+  #highAchievingWomenShowcase{
+    background-position: -200px 0px !important;
+  }
+}
+
+/* ====================HEARTBREAK BREAKUP DATING======================= */
+#heartbreakBreakupsShowcase{
+  background-image: url(/img/heartbreakBreakupsDatingShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 83vh;
+  background-position: 0px 1px;
+}
+
+@media(max-width: 576px){
+  #heartbreakBreakupsShowcase{
+    background-position: -800px 0px !important;
+  }
+}
+
+
+
+/* ====================FAQ======================= */
+#faqShowcase{
+  background-image: url(/img/faqShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 75vh;
+  background-position: 0px 0px;
+}
+@media(max-width: 576px){
+  #faqShowcase{
+    background-position: -250px 0px !important;
+  }
+}
+
+/* ====================Contact======================= */
+#contactShowcase{
+  background-image: url(/img/ContactShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 75vh;
+  background-position: 0px 0px;
+  border-bottom: 1px solid #C9B4CF;
+}
+@media(max-width: 576px){
+  #contactShowcase{
+    background-position: -250px 0px !important;
+  }
+}
+.thick-right-border-md-up{
+  border-right: black 2px solid;
+}
+@media(max-width: 768px){
+  .thick-right-border-md-up{
+    border-right: 0;
+  }
+}
+
+/* ====================BLOG======================= */
+#myBlogShowcase{
+  background-image: url(/img/myBlogShowcase.png);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 83vh;
+  background-position: 0px 0px;
+}
+
+@media(max-width: 576px){
+  #myBlogShowcase{
+    background-position: -300px 0px !important;
+  }
+}
+@media(max-width: 768px){
+  .image-top-crop-md{
+    max-height: 100px !important;
+    overflow: hidden !important;
+  }
+  .image-top-crop-md img{
+    max-width: initial !important;
+  }
+}
