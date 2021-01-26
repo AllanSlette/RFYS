@@ -111,7 +111,11 @@ nav{
   height: 79vh;
   background-position: 0px -10px;
 }
-
+/* white overlay */
+.white-overlay{
+  height: 100%;
+  background-color: rgb(255, 255, 255, 0.35);
+}
 .showcase-fill{
   height: 90vh;
 }
