@@ -49,11 +49,11 @@ nav img{
 /* .navbar .nav-item:not(:last-child) {
   margin-right: 35px;
 } */
- 
+
 .dropdown-toggle::after {
-   transition: transform 0.15s linear; 
+   transition: transform 0.15s linear;
 }
- 
+
 .show.dropdown .dropdown-toggle::after {
   transform: translateY(3px);
 }
@@ -78,7 +78,7 @@ nav img{
   font-weight: 50;
 }
 .left-footer{
- 
+
 }
 .right-footer{
   text-align: right;
@@ -86,7 +86,7 @@ nav img{
 @media(max-width: 576px){
   .right-footer{
     text-align: center;
-  
+
   }
   .left-footer{
     text-align: center;
@@ -114,7 +114,7 @@ nav{
 /* white overlay */
 .white-overlay{
   height: 100%;
-  background-color: rgb(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.35);
 }
 .showcase-fill{
   height: 90vh;
@@ -154,7 +154,7 @@ nav{
   .sm-order-3{
     order: 3 !important;
   }
-  
+
 }
 /* =======ABOUT====== */
 #aboutShowcase{
@@ -162,8 +162,8 @@ nav{
   background-size: cover;
   background-position: center;
   /* background-repeat: no-repeat; */
-  height: 90vh;
-  background-position: 0px -10px;
+  height: 80vh;
+  background-position: 0px 0px;
 }
 @media(max-width: 576px){
   #aboutShowcase{
@@ -194,7 +194,7 @@ nav{
 
 .side-card{
   height: 19vh;
-  
+
 }
 /* ====================SEXUAL ASSAULT======================= */
 #sexualAssaultShowcase{
