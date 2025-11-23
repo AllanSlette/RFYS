@@ -276,11 +276,25 @@ nav{
 .thick-right-border-md-up{
   border-right: black 2px solid;
 }
+.employee-pic{
+  float: right;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  width: 338px;
+}
 @media(max-width: 768px){
   .thick-right-border-md-up{
     border-right: 0;
   }
+  .employee-pic{
+    display: block;
+    margin: 0;
+    margin-bottom: 1.5em;
+    width: 100%;
+  }
 }
+
+
 
 /* ====================BLOG======================= */
 #myBlogShowcase{
