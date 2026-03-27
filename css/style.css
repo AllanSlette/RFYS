@@ -104,7 +104,7 @@ nav{
   /* height: 11vh; */
 }
 #indexShowcase{
-  background-image: url(/img/IndexShowcase.jpg);
+  background-image: url(/img/C49A6178.jpg);
   background-size: cover;
   background-position: center;
   /* background-repeat: no-repeat; */
@@ -121,7 +121,7 @@ nav{
 }
 @media(max-width: 576px){
   #indexShowcase{
-    background-position: -510px !important;
+    background-position: 94% 13%;
   }
 }
 
@@ -158,7 +158,7 @@ nav{
 }
 /* =======ABOUT====== */
 #aboutShowcase{
-  background-image: url(/img/AboutShowcase.jpg);
+  background-image: url(/img/C49A5824.jpg);
   background-size: cover;
   background-position: center;
   /* background-repeat: no-repeat; */
@@ -167,7 +167,21 @@ nav{
 }
 @media(max-width: 576px){
   #aboutShowcase{
-    background-position: -60px !important;
+    background-position: 50%
+  }
+}
+/* =======TELEHEALTH====== */
+#telehealthShowcase{
+  background-image: url(/img/C49A6391.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 80vh;
+  background-position: 50% 84%;
+}
+@media(max-width: 576px){
+  #telehealthShowcase{
+    background-position: 50%
   }
 }
 /* =======THERAPY====== */
@@ -245,7 +259,7 @@ nav{
 
 /* ====================FAQ======================= */
 #faqShowcase{
-  background-image: url(/img/faqShowcase.jpg);
+  background-image: url(/img/C49A5752.jpg);
   background-size: cover;
   background-position: center;
   /* background-repeat: no-repeat; */
@@ -254,23 +268,23 @@ nav{
 }
 @media(max-width: 576px){
   #faqShowcase{
-    background-position: -250px 0px !important;
+    background-position: 50%;
   }
 }
 
 /* ====================Contact======================= */
 #contactShowcase{
-  background-image: url(/img/ContactShowcase.jpg);
+  background-image: url(/img/C49A5820.jpg);
   background-size: cover;
   background-position: center;
   /* background-repeat: no-repeat; */
   height: 75vh;
-  background-position: 0px 0px;
+  background-position: 50% 50%;
   border-bottom: 1px solid #C9B4CF;
 }
 @media(max-width: 576px){
   #contactShowcase{
-    background-position: -250px 0px !important;
+    background-position: 50% 50% ;
   }
 }
 .thick-right-border-md-up{
@@ -298,17 +312,17 @@ nav{
 
 /* ====================BLOG======================= */
 #myBlogShowcase{
-  background-image: url(/img/myBlogShowcase.png);
+  background-image: url(/img/C49A5929.jpg);
   background-size: cover;
   background-position: center;
   /* background-repeat: no-repeat; */
   height: 83vh;
-  background-position: 0px 0px;
+  background-position: 50% 50%;
 }
 
 @media(max-width: 576px){
   #myBlogShowcase{
-    background-position: -300px 0px !important;
+    background-position: 50% 50%;
   }
 }
 @media(max-width: 768px){
